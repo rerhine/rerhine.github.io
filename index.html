@@ -203,12 +203,12 @@
                   <input type="email" class="form-control" id="exampleFormControlInput" placeholder="Rhine@Pateño">
                 </div><div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+                  <input type="hidden" name="_autoresponse" value="your custom message">
                   <input type="hidden" name="_captcha" value="false">
-                  <input type="hidden" name="_autoresponse" value="Thank you for messaging me, Pls. Contact me at my number. 09288542263 for Smart and 09452408047 for Globe Subscriber">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                  <label for="exampleFormControlTextarea1" class="form-label" name="message" placeholder="write your message here" required>Your Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-danger">Send Message</button>
