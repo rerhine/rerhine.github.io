@@ -88,7 +88,7 @@
                   </div>
               </div>
               <div class="col-md-6">
-                  <img src="images/1637568606164.jpg" alt=""height="500 px" width="800px" >
+                  <img src="images/1637568606164.jpg" alt=""height="200 px" width="400px" >
              </div>
              <div class="col-md-6">
                  <h1 class="fw-bold">RHINE PATEÑO</h1>
@@ -193,34 +193,41 @@
 
       <!--Contact Section-->
       <section id="contact">
-        <div class="container my-5 py-2 bg-promary">
-          <div class="row mb-5">
-            <div class="col-12">
-              <h1 class="fw-bold text-center">Contact</h1>
-              <hr>
+        <div class="container my-5 py-5">
+            <div class="row mb-5">
+                <div class="col-12">
+                   <h1 class="fw-bold text-center">Contact Me</h1>
+                    <hr>
+        <div class="container">
+          <form action="https://formspree.io/f/xlezlpzj" id="test-form" method="POST">
+    
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 mx-auto">
-              <form action="https://formsubmit.co/ferrerrenren9@gmail.com" method="POST">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput" class="form-label">Full Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput" placeholder="Rhine@Pateño">
-                </div><div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
-                  <input type="hidden" name="_autoresponse" value="your custom message">
-                  <input type="hidden" name="_captcha" value="false">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label" name="message" placeholder="write your message here" required>Your Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
-                <button type="submit" class="btn btn-outline-danger">Send Message</button>
-              </form>
+    
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
             </div>
-          </div>
+    
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="Email">
+            </div>
+    
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" rows="10" maxlength="200"></textarea>
+            </div>
+    
+            <button type="submit" id="test-form-submit">Submit</button>
+          </form>
         </div>
+        <div id="status"></div>
+      </section>
+      <script src="./main.js"></script>
+    </body>
       </section>
 
 
