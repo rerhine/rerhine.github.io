@@ -79,3 +79,17 @@ button[type="submit"]{
 button[type="submit"]:hover{
   background-color: crimson;
 }
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+}
