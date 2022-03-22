@@ -19,6 +19,7 @@
   z-index: 1;
   padding: 30px 30px 20px;
   line-height: 44px;
+  transition:all 0.5s ease;
 }
 /*Button*/
 .btn:hover{
